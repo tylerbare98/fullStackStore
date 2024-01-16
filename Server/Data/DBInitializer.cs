@@ -1,6 +1,6 @@
-using API.Entities;
+using Server.Entities;
 
-namespace API.Data
+namespace Server.Data
 {
     public static class DBInitializer
     {

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using API.Data;
-using API.Entities;
+using Server.Data;
+using Server.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
