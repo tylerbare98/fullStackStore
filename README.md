@@ -1,6 +1,6 @@
 Client
-* npm start ( updated from npm run dev) in /Client
+* npm start in /Client
 
 Server
-* dotnet run in /API
+* dotnet run in /Server
 * localhost:5000/swagger
