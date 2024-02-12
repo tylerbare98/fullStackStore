@@ -21,8 +21,10 @@ export default function ProductList({product}: Props) {
                     }}
             />
             <CardMedia
-                sx={{ height: 140, backgroundSize:"contained",
-                        bgcolor:"primary.light" }}
+                sx={{ height: 140,
+                      objectFit: 'contain',
+                      bgcolor:"primary.light" }}
+                      component="img"
                 image={product.pictureUrl}
                 title={product.name}
             />
@@ -41,12 +43,4 @@ export default function ProductList({product}: Props) {
         </Card>
         
     )
-} 
-/*
-    <ListItem key={product.id}>
-        <ListItemAvatar>
-            <Avatar src={product.pictureUrl} />
-        </ListItemAvatar>
-        <ListItemText>{product.name + " - " + product.price}</ListItemText>
-    </ListItem>
- */
+}
